@@ -1,0 +1,480 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('.fonts/Lato-BlackItalic.woff2') format('woff2'),
+        url('.fonts/Lato-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Black.woff2') format('woff2'),
+        url('.fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Bold.woff2') format('woff2'),
+        url('./fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Lato-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('.fonts/Lato-Light.woff2') format('woff2'),
+        url('.fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('.fonts/Lato-Italic.woff2') format('woff2'),
+        url('.fonts/Lato-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-LightItalic.woff2') format('woff2'),
+        url('.fonts/Lato-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('.fonts/Lato-HairlineItalic.woff2') format('woff2'),
+        url('.fonts/Lato-HairlineItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('.fonts/Lato-Regular.woff2') format('woff2'),
+        url('.fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('.fonts/Lato-Hairline.woff2') format('woff2'),
+        url('.fonts/Lato-Hairline.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+ul,
+li {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: font-family: 'Lato', sans-serif !important;
+}
+
+.top_head {
+    width: 90%;
+    margin-right: 100px;
+    text-align: right;
+}
+.top_head a{
+	font-size: 19px;
+    color: #000;
+    font-weight: 800;
+    background-color: #EDAB23;
+    padding: 13px 52px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.menu_bar .navbar-dark .navbar-nav .nav-link {
+    color: #000 !important;
+    padding: 0px 14px;
+    font-weight: bold;
+}
+.signup_form p {
+    color: #8F8F8F;
+    font-weight: 600;
+    font-size: 18px;
+}
+li.phone_section a {
+    color: #edab23 !important;
+}
+.copyright p {
+    color: #d8c0c0;
+}
+.menu_bar a.navbar-brand {
+    width: 28%;
+}
+div#collapsibleNavbar {
+    margin-top: 20px;
+}
+.signup_form {
+    width: 40%;
+    display: block;
+    margin: 90px auto;
+    text-align: center;
+}
+.signup_form h2 {
+    margin-bottom: 40px;
+    color: #5e5959;
+    font-weight: 700;
+}
+input.form-control {
+    padding: 24px 10px;
+    border-radius: 8px !important;
+}
+.tab-icon{
+	padding-left: 20px;
+}
+.tab-icon.my-apps{
+	background-image: url("../images/AWSlogo.png");
+	background-position: 0 50%;
+}
+button.SIGNUP_button {
+    background-color: #edab23;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.signup_form p a {
+    color: #edab23;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer-section {
+    width: 100%;
+    padding-top: 70px ;
+    padding-bottom: 0px;
+    background: #1f1f1f;
+}
+.footer-section {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background: #1f1f1f;
+    color: #7C7C7C;
+}
+.footer1 h4 {
+    color: #edab23;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.Annual_section1 {
+    border-top: 1px solid #7C7C7C;
+    padding-top: 30px;
+    width: 80%;
+}
+ul.contact-ul li {
+    list-style-type: none;
+}
+ul.contact-ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+ul.contact-ul li a {
+    color: #7C7C7C;
+}
+ul.contact-ul {
+    padding: 0px;
+}
+.copyright {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.Social_icon i.fa {
+    font-size: 40px;
+    color: #000;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 68px;
+    border-radius: 50px;
+}
+.Social_icon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Social_icon span {
+    margin-left: 30px;
+}
+.Social_icon a {
+    color: #fff;
+    font-weight: bold;
+}
+.Social_icon {
+    padding-top: 50px;
+}
+.Account-profile ul li {
+    list-style-type: none;
+    padding-bottom: 40px;
+}
+.Account-profile ul li a {
+    color: #040213;
+    font-weight: 700;
+    text-decoration: none;
+}
+.profile-Account {
+    width: 100%;
+    margin: 100px 0px;
+}
+.Account_right {
+    border-left: 1px solid #ccc;
+    padding-left: 80px;
+    width: 80%;
+}
+.fontawesome-icon h3 {
+    color: #5e5959;
+    font-weight: 700;
+}
+.update-button button {
+    background-color: #edab23;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 80px;
+}
+.Account_right input::placeholder {
+    color: #8F8F8F !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+.signup_form input::placeholder{
+    color: #8F8F8F;
+    font-weight: 500;
+    font-size: 18px;
+}
+.billing-inform input::placeholder, .member_directory input::placeholder, select#sel1{
+    color: #8F8F8F !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+.Billing_section {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+select#sel1 {
+    height: 50px;
+    border-radius: 8px;
+}
+.textimnial_contents {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+.Account_right select{
+   color: #898989 !important;
+    font-weight: 600;
+    font-size: 16px; 
+}
+.Cancel_membership {
+    margin-top: 30px;
+    color: #c00;
+    font-weight: 500;
+    font-size: 18px;
+}
+.testimonial1 {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    position: relative;
+}
+.testimonial1 img {
+    width: 109px;
+    display: block;
+    margin: 20px auto;
+}
+
+.col-md-9.memebership_account {
+    border-left: 1px solid #ccc;
+    padding-left: 40px;
+}
+.fontawesome-icon i.fa.fa-user-o {
+    background-color: #ededed;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+.fontawesome-icon i.fa.fa-linkedin {
+    float: right;
+    background-color: #007ab9;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
+    margin-top: 60px;-
+}
+.testimonial1 i.fa {
+    background-color: #007ab9;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 40px;
+    position: absolute;
+    top: 160px;
+    right: 20px;
+}
+.input-name {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.select-optiondiv select {
+    height: 50px;
+    margin-bottom: 20px;
+}
+.membership-section h2 {
+    color: #5e5959;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.member_section {
+    display: grid;
+    grid-gap: 210px;
+    grid-template-columns: 1fr 1fr;
+    color: #5e5959;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.billing-inform {
+    width: 70%;
+}
+.Membership_button button {
+    background-color: #edab23;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.membership_content {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.member_text h2, .testimonial_content {
+    color: #5E5959;
+}
+.testimonial_content ul {
+    padding-left: 0px;
+}
+.testimonial_content ul li {
+    list-style-type: none;
+}
+.testimonial_content ul li span {
+    font-weight: bold;
+}
+.Account_resources h2 {
+    color: #5e5959;
+}
+.resourses_content {
+    margin-top: 50px;
+    position: relative;
+}
+p.article_content, p.video_content {
+    font-size: 28px;
+    color: #5e5959;
+}
+.resourses_content input {
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #c5a4a4;
+}
+.resourses_content i.fa {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    font-size: 30px;
+    color: #c5a4a4;
+}
+.testimonial_content h5 {
+    color: #5E5959;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.resourse-content {
+    width: 100%;
+    border-bottom: 1px solid #9e9a9a;
+    padding: 16px 0px;
+}
+p.lorem_content {
+    color: #944421;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.Account_resources {
+    width: 86%;
+    padding-left: 40px;
+    border-left: 1px solid #ccc;
+    height: 80%;
+}
+p.Article_description {
+    color: #9e9a9a;
+    font-size: 18px;
+}
+.resourses_content input::placeholder {
+    color: #8F8F8F;
+    font-weight: 700;
+}
+.resourses_content input {
+    outline: 1px solid #c5a4a4;
+}
+.Account-profile ul li a:active {
+    color: #EDAB23;
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1280px;
+}
+}
